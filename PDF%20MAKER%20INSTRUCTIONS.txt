@@ -1,0 +1,1126 @@
+PDF MAKER INSTRUCTIONS
+
+PURPOSE
+Create the complete final college Black Book / Project Report PDF and DOCX for my capstone project. Do not only create an outline or give me instructions. Read my actual capstone project files and the three reference Black Books, understand them, and produce the finished report.
+
+============================================================
+FILES TO USE
+============================================================
+
+I will provide these files to you:
+
+1. CAPSTONE project ZIP
+   - This is the PRIMARY SOURCE OF TRUTH.
+   - Read the complete project, source code, README/PRD/documentation, data, outputs, figures, metrics, reports, model artifacts, tests, dashboard/API and other relevant files.
+
+2. SEABUM CAPSTONE.pdf
+3. DEEPAK CAPSTONE.docx
+4. shubham blackbook.pdf
+
+The last three files are REFERENCE BLACK BOOKS.
+
+IMPORTANT:
+Use the three reference Black Books to learn and reproduce the GENERAL COLLEGE REPORT STRUCTURE, formatting style, chapter organization, heading hierarchy, table of contents style, placement of diagrams, graphs, tables, testing sections, results sections, conclusion and overall presentation.
+
+DO NOT copy their project-specific content.
+DO NOT copy their names, roll numbers, project titles, results, paragraphs, code, screenshots or diagrams as if they belong to my project.
+
+Use them as structural and visual references only.
+
+============================================================
+MY PROJECT
+============================================================
+
+PROJECT TITLE:
+
+SURVIVAL-BASED CHURN MODELING WITH PERSONALIZED RETENTION TREATMENT RANKING
+
+PROJECT NAME:
+
+RetainIQ
+
+PROJECT ID:
+
+BDS-11
+
+PROGRAMME:
+
+T.Y. B.Sc. Data Science
+
+STUDENT:
+
+IVAN DSOUZA
+
+ROLL NO.:
+
+TDDS013A
+
+COLLEGE:
+
+KES' Shroff College of Arts & Commerce
+Kandivali (W), Mumbai - 400067
+
+GUIDE:
+
+If the actual guide name is not available in my supplied project files, use:
+
+Mr./Ms. __________________________
+
+DO NOT INVENT A GUIDE NAME.
+
+Use the correct academic year/semester from my project information if available.
+
+============================================================
+MOST IMPORTANT RULE — ACTUAL PROJECT IS THE SOURCE OF TRUTH
+============================================================
+
+Before writing the report, thoroughly inspect the complete capstone project.
+
+Read and understand:
+
+- README files
+- PRD files
+- source code
+- configuration files
+- data files
+- processed data
+- generated outputs
+- metrics
+- prediction files
+- model artifacts
+- figures
+- reports
+- tests
+- dashboard
+- API
+- model documentation
+- system documentation
+- model card
+- system card
+- threat model
+- robustness outputs
+- monitoring outputs
+- audit outputs
+- treatment-effect outputs
+- survival-analysis outputs
+
+Do not assume the project structure.
+
+First inspect it.
+
+Then build the report around what is actually implemented.
+
+============================================================
+NO FABRICATION
+============================================================
+
+NEVER invent:
+
+- accuracy
+- AUC
+- C-index
+- Brier score
+- precision
+- recall
+- treatment effect
+- uplift
+- revenue
+- ERV
+- customer counts
+- percentages
+- test results
+- API performance
+- latency
+- model performance
+- dataset statistics
+- graphs
+- screenshots
+- citations
+- papers
+- URLs
+- technical capabilities
+
+If a value exists in the project, use the actual value.
+
+If it can be calculated reliably from the supplied project data, calculate it.
+
+If it is not available, state that it is not reported rather than inventing it.
+
+Every numerical claim should be traceable to the project.
+
+============================================================
+REPORT LENGTH
+============================================================
+
+The final report MUST be:
+
+MINIMUM: 51 PAGES
+MAXIMUM: 60 PAGES
+
+TARGET: approximately 55–57 pages.
+
+Do not make it 40, 45 or 50 pages.
+
+Do not exceed 60 pages.
+
+Do not artificially increase page count using:
+- giant fonts
+- excessive blank spaces
+- repeated paragraphs
+- meaningless filler
+- unnecessary screenshots
+- oversized diagrams
+
+Use meaningful technical content, graphs, tables, explanations and diagrams to reach the target.
+
+After generating the document, verify the final PDF page count.
+
+============================================================
+REFERENCE BLACK BOOK STRUCTURE
+============================================================
+
+The three reference Black Books show a common college-style structure.
+
+Use this structure as the base:
+
+PRELIMINARY PAGES
+
+1. Cover Page
+2. Certificate
+3. Project Proposal / Approval Proforma
+4. Abstract
+5. Acknowledgement
+6. Declaration
+7. Table of Contents
+8. List of Figures
+9. List of Tables
+10. List of Abbreviations / Glossary if useful
+
+CHAPTER 1 — INTRODUCTION
+
+1.1 Significance
+1.2 Objectives
+1.3 Purpose and Scope
+    1.3.1 Purpose
+    1.3.2 Scope
+1.4 Applicability
+1.5 Achievements
+
+CHAPTER 2 — SYSTEM ANALYSIS
+
+2.1 Existing System
+2.2 Proposed System
+2.3 Requirements Analysis
+2.4 Hardware Requirements
+2.5 Software Requirements
+2.6 Survey of Technology
+
+CHAPTER 3 — SYSTEM DESIGN
+
+3.1 Module Division
+3.2 System Architecture
+3.3 Gantt Chart
+3.4 Data Flow Representation
+    3.4.1 Data Flow Diagram
+3.5 UML Diagrams
+    3.5.1 Class Diagram
+    3.5.2 Sequence Diagram
+    3.5.3 State Chart Diagram
+    3.5.4 Use-Case Diagram
+
+Add additional project-specific system-design sections where genuinely useful.
+
+CHAPTER 4 — IMPLEMENTATION AND TESTING
+
+4.1 Implementation
+4.2 Code
+4.3 Testing Approach
+4.4 Testing Results
+
+CHAPTER 5 — RESULTS AND DISCUSSIONS
+
+Create project-specific result subsections based on actual outputs.
+
+CHAPTER 6 — CONCLUSION AND FUTURE WORK
+
+6.1 Conclusion
+6.2 Future Scope
+6.3 Limitations
+
+CHAPTER 7 — REFERENCES
+
+============================================================
+CHAPTER 1 — INTRODUCTION
+============================================================
+
+Write a detailed project-specific introduction covering:
+
+- customer churn
+- limitations of traditional binary churn prediction
+- why predicting WHEN churn may occur is useful
+- survival analysis
+- survival probability
+- hazard
+- right censoring
+- retention decision-making
+- treatment effect
+- personalized retention
+- treatment ranking
+- Expected Retention Value
+- explainability
+- robustness
+- monitoring
+- decision support
+
+1.1 Significance
+
+Explain why the project is significant from:
+- Data Science perspective
+- machine learning perspective
+- business perspective
+- customer retention perspective
+- decision-support perspective
+
+1.2 Objectives
+
+Create clear objectives based on what RetainIQ actually implements.
+
+1.3 Purpose and Scope
+
+Explain the purpose and boundaries of the project.
+
+1.3.1 Purpose
+1.3.2 Scope
+
+1.4 Applicability
+
+Explain where this type of system can be applied.
+
+1.5 Achievements
+
+List only actual achievements demonstrated by the project.
+
+============================================================
+CHAPTER 2 — SYSTEM ANALYSIS
+============================================================
+
+2.1 Existing System
+
+Discuss conventional churn prediction systems and their limitations.
+
+Explain the difference between:
+- binary churn classification
+- time-to-event prediction
+- survival analysis
+- treatment recommendation
+
+2.2 Proposed System
+
+Explain RetainIQ as the proposed solution.
+
+2.3 Requirements Analysis
+
+Include:
+
+A. Functional Requirements
+B. Non-Functional Requirements
+C. Machine Learning Requirements
+D. Dashboard Requirements
+E. API Requirements
+F. Monitoring/Governance Requirements
+
+2.4 Hardware Requirements
+
+Use realistic requirements based on the actual project.
+
+2.5 Software Requirements
+
+Use actual technologies present in the project.
+
+2.6 Survey of Technology
+
+Discuss actual technologies used, such as relevant items from:
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- survival-analysis libraries actually used
+- Streamlit
+- FastAPI
+- Plotly/Matplotlib/other visualization libraries actually used
+- Joblib
+- pytest
+- Docker
+- Git/GitHub
+
+ONLY include technologies actually present or genuinely required by the implementation.
+
+============================================================
+CHAPTER 3 — SYSTEM DESIGN
+============================================================
+
+Explain the complete RetainIQ architecture.
+
+Include:
+
+3.1 Module Division
+
+Possible modules:
+
+- Data Acquisition
+- Data Validation
+- Data Cleaning
+- Feature Engineering
+- Leakage Prevention
+- Exploratory Analysis
+- Cohort Construction
+- Survival Modeling
+- Risk Prediction
+- Treatment Effect Modeling
+- Treatment Ranking
+- Expected Retention Value
+- Explainability
+- Robustness Testing
+- Monitoring
+- Governance
+- Streamlit Dashboard
+- FastAPI Backend
+
+Only include modules actually supported by the project.
+
+3.2 System Architecture
+
+Create a professional architecture diagram.
+
+A conceptual flow is:
+
+Raw Customer Data
+        ↓
+Data Validation
+        ↓
+Data Cleaning
+        ↓
+Feature Engineering
+        ↓
+Leakage Checks
+        ↓
+Cohort Construction
+        ↓
+Survival Modeling
+        ↓
+Survival Predictions / Risk
+        ↓
+Treatment Effect Estimation
+        ↓
+Personalized Treatment Ranking
+        ↓
+Expected Retention Value
+        ↓
+Explainability
+        ↓
+Dashboard / API
+        ↓
+Audit / Monitoring
+
+Verify and modify this based on the actual source code.
+
+3.3 Gantt Chart
+
+Create a realistic project-phase Gantt chart.
+
+Use phases such as:
+- requirement analysis
+- data acquisition
+- preprocessing
+- EDA
+- survival modeling
+- treatment modeling
+- ranking
+- explainability
+- robustness
+- dashboard
+- API
+- testing
+- documentation
+
+Do not invent exact dates unless supported by the project.
+
+3.4 Data Flow Representation
+
+Create a clear DFD.
+
+3.4.1 Data Flow Diagram
+
+Create Level 0 and Level 1 where useful.
+
+3.5 UML DIAGRAMS
+
+Create professional, technically accurate:
+
+3.5.1 Class Diagram
+3.5.2 Sequence Diagram
+3.5.3 State Chart Diagram
+3.5.4 Use-Case Diagram
+
+Also create where appropriate:
+
+- Conceptual ER/Data Model
+- Deployment Architecture
+- Dashboard Architecture
+- API Architecture
+- Governance/Monitoring Architecture
+- Treatment Ranking Flow
+
+============================================================
+DIAGRAM QUALITY
+============================================================
+
+All diagrams must:
+
+- be specific to RetainIQ
+- have readable text
+- have clean arrows
+- have consistent styling
+- have no overlaps
+- have no cut-off labels
+- have no spelling mistakes
+- have figure numbers
+- have captions
+
+Example:
+
+Figure 3.1: Overall RetainIQ System Architecture
+
+After each important diagram, explain what it represents.
+
+Do not create decorative diagrams without technical meaning.
+
+============================================================
+CHAPTER 4 — IMPLEMENTATION AND TESTING
+============================================================
+
+Explain the actual implementation.
+
+Include relevant sections such as:
+
+4.1 Dataset Acquisition
+4.2 Data Validation
+4.3 Data Cleaning
+4.4 Feature Engineering
+4.5 Leakage Checking
+4.6 Exploratory Data Analysis
+4.7 Cohort Analysis
+4.8 Survival Dataset Construction
+4.9 Kaplan-Meier Analysis
+4.10 Cox Proportional Hazards
+4.11 Weibull AFT
+4.12 Random Survival Forest
+4.13 Survival Prediction
+4.14 Risk Segmentation
+4.15 Treatment Effect Estimation
+4.16 S-Learner
+4.17 T-Learner
+4.18 X-Learner
+4.19 Personalized Treatment Ranking
+4.20 Expected Retention Value
+4.21 Explainability
+4.22 Robustness Testing
+4.23 Monitoring
+4.24 Governance/Audit
+4.25 Streamlit Dashboard
+4.26 FastAPI Backend
+
+Only include items that actually exist in the project.
+
+============================================================
+CODE
+============================================================
+
+Do NOT paste the entire source code.
+
+Show only important representative code snippets.
+
+For each code snippet explain:
+
+- what it does
+- what module it belongs to
+- why it is needed
+- what its output contributes to the system
+
+Use syntax highlighting if supported.
+
+============================================================
+TESTING
+============================================================
+
+Use actual project tests.
+
+Create a professional table:
+
+Test Case ID | Module | Test Description | Expected Result | Actual Result | Status
+
+Include actual testing for:
+
+- preprocessing
+- validation
+- leakage checks
+- survival models
+- treatment ranking
+- API
+- dashboard where possible
+- edge cases
+- robustness
+- integration
+
+Do not invent PASS/FAIL results.
+
+============================================================
+CHAPTER 5 — RESULTS AND DISCUSSIONS
+============================================================
+
+This should be one of the strongest chapters.
+
+Use ACTUAL outputs from the project.
+
+Look for:
+
+outputs/figures/
+outputs/metrics/
+outputs/predictions/
+outputs/reports/
+
+Use actual figures wherever available.
+
+Discuss relevant topics such as:
+
+5.1 Dataset Composition
+5.2 Data Quality and Missingness
+5.3 Feature Distribution
+5.4 Leakage Audit
+5.5 Cohort Analysis
+5.6 Kaplan-Meier Survival Analysis
+5.7 Survival Model Comparison
+5.8 Survival Calibration
+5.9 Risk Segmentation
+5.10 Treatment Effect / Uplift Results
+5.11 Personalized Treatment Ranking
+5.12 Expected Retention Value
+5.13 Explainability / Feature Importance
+5.14 Robustness and Stress Testing
+5.15 Monitoring Results
+5.16 Dashboard Results
+5.17 API/System Evaluation
+
+Change or add subsection names according to the actual project outputs.
+
+============================================================
+GRAPHS
+============================================================
+
+Use ACTUAL project graphs first.
+
+Possible project graphs may include:
+
+- Kaplan-Meier survival curves
+- Kaplan-Meier by customer segments
+- Cox hazard ratios
+- CATE distributions
+- treatment effect plots
+- feature importance
+- calibration plots
+- robustness stress curves
+- model comparison charts
+- risk distributions
+- treatment ranking charts
+- ERV charts
+- monitoring charts
+
+If additional graphs can be accurately generated from the supplied data, create them.
+
+Do not create fake data merely to make a graph.
+
+For each graph:
+
+- figure number
+- professional caption
+- readable axis labels
+- readable legend
+- short interpretation
+- actual values if available
+- limitations if relevant
+
+============================================================
+DASHBOARD
+============================================================
+
+The project contains a Streamlit dashboard.
+
+If it can be run successfully, capture real screenshots.
+
+Use actual dashboard pages such as those that exist in the project, potentially including:
+
+- Executive Overview
+- Data Quality and Leakage
+- Cohort and Survival Explorer
+- Model Lab and Benchmarking
+- Customer 360
+- Treatment Studio / What-If
+- Campaign Planner / ROI
+- Explainability and Attribution
+- Robustness and Stress Testing
+- Governance, Audit and Monitoring
+- Model Card / Documentation
+
+ONLY include pages that actually exist and work.
+
+Do not create fake screenshots.
+
+============================================================
+TECHNICAL EXPLANATION
+============================================================
+
+Explain the actual survival models used.
+
+For each model explain:
+
+- purpose
+- input
+- output
+- methodology
+- why it was selected
+- advantages
+- limitations
+- evaluation metrics
+- actual results
+
+Relevant models include:
+
+- Kaplan-Meier
+- Cox Proportional Hazards
+- Weibull AFT
+- Random Survival Forest
+
+Explain treatment-effect models actually implemented:
+
+- S-Learner
+- T-Learner
+- X-Learner
+
+Explain personalized treatment ranking.
+
+Explain Expected Retention Value using the ACTUAL formula in the project.
+
+Do not invent a different ERV formula.
+
+============================================================
+MATHEMATICAL CONTENT
+============================================================
+
+Include useful equations where appropriate.
+
+For example:
+
+Survival function:
+
+S(t) = P(T > t)
+
+Hazard function:
+
+h(t) = lim(Δt→0) P(t ≤ T < t+Δt | T ≥ t) / Δt
+
+Cox model:
+
+h(t|x) = h₀(t) exp(βᵀx)
+
+Use the actual treatment-ranking/ERV equations from the project.
+
+Define every variable.
+
+Do not add mathematical formulas that are not relevant to the actual implementation.
+
+============================================================
+DATASET
+============================================================
+
+Create a detailed dataset section.
+
+Include actual:
+
+- dataset source
+- number of records
+- number of features
+- target/event
+- censoring information
+- numerical variables
+- categorical variables
+- missing values
+- preprocessing
+- transformations
+- engineered features
+- train/validation/test methodology
+- leakage prevention
+
+Create a professional data dictionary table for important variables.
+
+Use actual dataset information.
+
+============================================================
+IMPORTANT METHODOLOGICAL DISTINCTIONS
+============================================================
+
+Be technically precise.
+
+DO NOT confuse:
+
+- churn probability with survival probability
+- prediction with treatment effect
+- correlation with causation
+- high churn risk with treatment priority
+- simulated treatment effects with real-world causal effects
+
+If treatment effects are based on simulated treatment data, explicitly state this.
+
+If the project does not provide randomized treatment data, do not claim that the model has proven causal effectiveness in the real world.
+
+Clearly distinguish:
+
+- model-estimated treatment effect
+- simulation results
+- actual causal evidence
+
+============================================================
+CONCLUSION
+============================================================
+
+Write a project-specific conclusion based ONLY on actual findings.
+
+Discuss:
+
+- what was implemented
+- what survival analysis contributes
+- personalized retention ranking
+- treatment effects
+- ERV
+- explainability
+- robustness
+- monitoring
+- dashboard
+- API
+- practical use
+
+Do not exaggerate.
+
+============================================================
+FUTURE SCOPE
+============================================================
+
+Clearly mark future work.
+
+Possible areas:
+
+- larger real-world longitudinal datasets
+- real randomized treatment experiments
+- stronger causal identification
+- production experimentation
+- online learning
+- advanced causal models
+- campaign integration
+- automated model retraining
+- real-time monitoring
+
+Only describe these as FUTURE SCOPE.
+
+============================================================
+LIMITATIONS
+============================================================
+
+Be honest.
+
+Discuss limitations supported by the project, such as:
+
+- dataset limitations
+- treatment data limitations
+- observational/simulated treatment limitations
+- model assumptions
+- sample size
+- generalization
+- deployment constraints
+
+============================================================
+REFERENCES
+============================================================
+
+Create a proper academic References section.
+
+Use real sources relevant to:
+
+- survival analysis
+- Kaplan-Meier
+- Cox proportional hazards
+- Random Survival Forest
+- uplift modeling
+- treatment effect estimation
+- causal inference
+- explainability
+- churn prediction
+- model monitoring
+- technologies actually used
+
+Include the actual dataset source.
+
+Do not invent references or URLs.
+
+============================================================
+WRITING STYLE
+============================================================
+
+The report should sound like a strong final-year B.Sc. Data Science project.
+
+Use:
+
+- professional academic language
+- clear explanations
+- technically correct terminology
+- natural writing
+- good paragraph structure
+- appropriate tables
+- concise but detailed explanations
+
+Avoid repetitive AI-style filler.
+
+Do not repeatedly use the same transition words.
+
+Do not overcomplicate simple concepts.
+
+============================================================
+VISUAL STYLE
+============================================================
+
+Make the report attractive and professional while preserving the appearance of a genuine college Black Book.
+
+Take visual inspiration from the three supplied reference Black Books.
+
+Use:
+
+- professional cover
+- clean margins
+- consistent fonts
+- heading hierarchy
+- page numbers
+- headers/footers where appropriate
+- professional tables
+- professional diagrams
+- readable graphs
+- figure captions
+- table captions
+- consistent spacing
+- restrained academic colors
+
+Do NOT make it look like a marketing brochure.
+
+It should look like a high-quality KES' Shroff College Data Science project report.
+
+============================================================
+COVER PAGE
+============================================================
+
+Create a cover page structurally similar to the supplied KES Shroff reference reports.
+
+Use:
+
+KES' Shroff College of Arts & Commerce
+Kandivali (W), Mumbai - 400067
+
+PROJECT REPORT
+
+ON
+
+SURVIVAL-BASED CHURN MODELING
+WITH PERSONALIZED RETENTION TREATMENT RANKING
+
+IN THE PROGRAMME
+
+BACHELOR OF SCIENCE (DATA SCIENCE)
+
+SUBMITTED BY
+
+IVAN DSOUZA
+
+TY B.Sc. DATA SCIENCE
+
+TDDS013A
+
+SEMESTER VI
+
+UNDER THE GUIDANCE OF
+
+Mr./Ms. ______________________
+
+ACADEMIC YEAR
+
+[USE CORRECT YEAR FROM PROJECT INFORMATION]
+
+============================================================
+CERTIFICATE
+============================================================
+
+Create a college-style certificate similar in layout to the references.
+
+Do not falsely create signatures.
+
+Use blank signature lines for:
+
+Teacher In-charge
+Guide
+Principal
+
+============================================================
+ABSTRACT
+============================================================
+
+Create a strong 1–2 page abstract covering:
+
+- problem
+- limitations of traditional churn prediction
+- survival modeling
+- time-to-event prediction
+- censoring
+- treatment effect
+- personalized treatment ranking
+- Expected Retention Value
+- explainability
+- robustness
+- dashboard/API
+- actual evaluation
+- actual results
+- limitations
+
+Do not fabricate numbers.
+
+============================================================
+TABLE OF CONTENTS
+============================================================
+
+Generate the TOC automatically from actual headings.
+
+Do not manually type page numbers that may become incorrect.
+
+Also generate:
+
+LIST OF FIGURES
+LIST OF TABLES
+LIST OF ABBREVIATIONS
+
+============================================================
+PAGE-BY-PAGE QUALITY CHECK
+============================================================
+
+Before final delivery, inspect the generated PDF.
+
+Fix:
+
+- blank pages
+- bad page breaks
+- headings stranded at page bottoms
+- cropped diagrams
+- cropped graphs
+- unreadable text
+- tables overflowing margins
+- inconsistent numbering
+- incorrect page numbers
+- duplicate content
+- spelling errors
+- grammar problems
+- broken equations
+- low-resolution images
+- inconsistent captions
+- excessive whitespace
+
+============================================================
+FINAL QUALITY CHECKLIST
+============================================================
+
+Verify all of the following:
+
+[ ] 51–60 total pages
+[ ] target approximately 55–57 pages
+[ ] correct student name
+[ ] correct roll number
+[ ] correct project title
+[ ] correct college
+[ ] correct programme
+[ ] correct semester/year
+[ ] no invented guide
+[ ] no fabricated metrics
+[ ] no fabricated graphs
+[ ] no fabricated test results
+[ ] no fabricated screenshots
+[ ] no fabricated citations
+[ ] actual project used as source of truth
+[ ] three reference Black Books used for structure/style
+[ ] all major chapters included
+[ ] TOC is correct
+[ ] List of Figures is correct
+[ ] List of Tables is correct
+[ ] diagrams are technically accurate
+[ ] graphs are readable
+[ ] figures have captions
+[ ] tables have captions
+[ ] code snippets are relevant
+[ ] testing is based on actual project
+[ ] results are based on actual project
+[ ] conclusion is based on actual findings
+[ ] limitations are honest
+[ ] future scope is clearly separated
+[ ] references are real
+[ ] final PDF has no layout errors
+
+============================================================
+FINAL OUTPUT
+============================================================
+
+Create BOTH:
+
+1. DOCX:
+Ivan_Dsouza_RetainIQ_Blackbook.docx
+
+2. PDF:
+Ivan_Dsouza_RetainIQ_Blackbook.pdf
+
+The final PDF must be between 51 and 60 pages.
+
+TARGET: 55–57 pages.
+
+Do not stop at an outline.
+
+Do not tell me how to make it.
+
+Do the complete work.
+
+Read all supplied files.
+Understand the actual project.
+Use the three Black Books as structural/visual references.
+Create the complete report.
+Create the diagrams.
+Use the actual graphs.
+Create additional accurate graphs where appropriate.
+Include actual dashboard screenshots if the dashboard runs.
+Write all chapters.
+Format everything.
+Generate DOCX and PDF.
+Check page count.
+Visually inspect the PDF.
+Fix all layout problems.
+Then provide the finished files.
+
+FINAL PRIORITY ORDER:
+
+1. Accuracy to my actual capstone project
+2. No fabricated information
+3. Correct college Black Book structure
+4. 51–60 pages, target 55–57
+5. Strong diagrams and graphs
+6. Professional visual presentation
+7. Clear technical explanations
+8. Submission-ready formatting
